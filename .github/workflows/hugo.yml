@@ -48,7 +48,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "category.kirancodes.me"
+            --baseURL "https://category.kirancodes.me/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
