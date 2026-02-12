@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 960 540"
+   version="1.1"
+   id="svg83"
+   sodipodi:docname="nyc-cat-theory-banner.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   inkscape:export-filename="../Desktop/nyc-cat-theory-banner.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview83"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.53194587"
+     inkscape:cx="535.7688"
+     inkscape:cy="498.17099"
+     inkscape:window-width="1392"
+     inkscape:window-height="841"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg83" />
+  <defs
+     id="defs18">
+    <linearGradient
+       id="sky"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1"
+       gradientUnits="objectBoundingBox">
+      <stop
+         offset="0%"
+         stop-color="#06031a"
+         id="stop1" />
+      <stop
+         offset="55%"
+         stop-color="#110840"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#0a0525"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       id="bfill"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1"
+       gradientUnits="objectBoundingBox">
+      <stop
+         offset="0%"
+         stop-color="#1e1258"
+         id="stop4" />
+      <stop
+         offset="100%"
+         stop-color="#080420"
+         id="stop5" />
+    </linearGradient>
+    <!-- Trans stripe fade at top -->
+    <linearGradient
+       id="stripe_blue"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#55CDFC"
+         stop-opacity="0.9"
+         id="stop6" />
+      <stop
+         offset="100%"
+         stop-color="#55CDFC"
+         stop-opacity="0"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
+       id="stripe_pink"
+       x1="0"
+       y1="0"
+       x2="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#F7A8B8"
+         stop-opacity="0.9"
+         id="stop8" />
+      <stop
+         offset="100%"
+         stop-color="#F7A8B8"
+         stop-opacity="0"
+         id="stop9" />
+    </linearGradient>
+    <marker
+       id="mb"
+       viewBox="0 0 12 12"
+       refX="11"
+       refY="6"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         d="M0,0 L12,6 L0,12 Z"
+         fill="#55CDFC"
+         id="path9" />
+    </marker>
+    <marker
+       id="mp"
+       viewBox="0 0 12 12"
+       refX="11"
+       refY="6"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         d="M0,0 L12,6 L0,12 Z"
+         fill="#F7A8B8"
+         id="path10" />
+    </marker>
+    <marker
+       id="mw"
+       viewBox="0 0 12 12"
+       refX="11"
+       refY="6"
+       markerWidth="10"
+       markerHeight="10"
+       orient="auto">
+      <path
+         d="M0,0 L12,6 L0,12 Z"
+         fill="#FFFFFF"
+         id="path11" />
+    </marker>
+    <filter
+       id="glow"
+       x="-0.32727273"
+       y="-1.3684889"
+       width="1.6545455"
+       height="3.6253563">
+      <feGaussianBlur
+         stdDeviation="6"
+         result="b"
+         id="feGaussianBlur11" />
+      <feMerge
+         id="feMerge12">
+        <feMergeNode
+           in="b"
+           id="feMergeNode11" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode12" />
+      </feMerge>
+    </filter>
+    <filter
+       id="sglow"
+       x="-0.63682535"
+       y="-0.45537614"
+       width="2.2736507"
+       height="1.9107523">
+      <feGaussianBlur
+         stdDeviation="3.5"
+         result="b"
+         id="feGaussianBlur12" />
+      <feMerge
+         id="feMerge14">
+        <feMergeNode
+           in="b"
+           id="feMergeNode13" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode14" />
+      </feMerge>
+    </filter>
+    <filter
+       id="tglow"
+       x="-0.01125"
+       y="-0.025352113"
+       width="1.0225"
+       height="1.0507042">
+      <feGaussianBlur
+         stdDeviation="1.5"
+         result="b"
+         id="feGaussianBlur14" />
+      <feMerge
+         id="feMerge16">
+        <feMergeNode
+           in="b"
+           id="feMergeNode15" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode16" />
+      </feMerge>
+    </filter>
+    <filter
+       id="textglow"
+       x="-0.026771242"
+       y="-0.702021"
+       width="1.0535425"
+       height="2.404042">
+      <feGaussianBlur
+         stdDeviation="4"
+         result="b"
+         id="feGaussianBlur16" />
+      <feMerge
+         id="feMerge18">
+        <feMergeNode
+           in="b"
+           id="feMergeNode17" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode18" />
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Sky background -->
+  <rect
+     width="960"
+     height="540"
+     fill="url(#sky)"
+     id="rect18" />
+  <!-- Trans accent stripes — top edge, fading down -->
+  <rect
+     x="0"
+     y="0"
+     width="960"
+     height="28"
+     fill="url(#stripe_blue)"
+     opacity="0.55"
+     id="rect19" />
+  <rect
+     x="0"
+     y="0"
+     width="960"
+     height="18"
+     fill="url(#stripe_pink)"
+     opacity="0.0"
+     id="rect20" />
+  <!-- thin hard lines at very top -->
+  <rect
+     x="0"
+     y="0"
+     width="960"
+     height="5"
+     fill="#55CDFC"
+     opacity="0.7"
+     id="rect21" />
+  <rect
+     x="0"
+     y="5"
+     width="960"
+     height="4"
+     fill="#F7A8B8"
+     opacity="0.6"
+     id="rect22" />
+  <rect
+     x="0"
+     y="9"
+     width="960"
+     height="3"
+     fill="#FFFFFF"
+     opacity="0.5"
+     id="rect23" />
+  <!-- Stars -->
+  <g
+     fill="white"
+     id="g42">
+    <circle
+       cx="40"
+       cy="38"
+       r="1.2"
+       opacity="0.45"
+       id="circle23" />
+    <circle
+       cx="120"
+       cy="22"
+       r="1.4"
+       opacity="0.4"
+       id="circle24" />
+    <circle
+       cx="210"
+       cy="44"
+       r="1"
+       opacity="0.38"
+       id="circle25" />
+    <circle
+       cx="310"
+       cy="18"
+       r="1.3"
+       opacity="0.42"
+       id="circle26" />
+    <circle
+       cx="420"
+       cy="32"
+       r="1"
+       opacity="0.35"
+       id="circle27" />
+    <circle
+       cx="530"
+       cy="15"
+       r="1.2"
+       opacity="0.4"
+       id="circle28" />
+    <circle
+       cx="640"
+       cy="36"
+       r="1"
+       opacity="0.35"
+       id="circle29" />
+    <circle
+       cx="740"
+       cy="20"
+       r="1.3"
+       opacity="0.42"
+       id="circle30" />
+    <circle
+       cx="840"
+       cy="40"
+       r="1"
+       opacity="0.38"
+       id="circle31" />
+    <circle
+       cx="920"
+       cy="24"
+       r="1.2"
+       opacity="0.4"
+       id="circle32" />
+    <circle
+       cx="75"
+       cy="80"
+       r="0.9"
+       opacity="0.3"
+       id="circle33" />
+    <circle
+       cx="185"
+       cy="68"
+       r="0.8"
+       opacity="0.28"
+       id="circle34" />
+    <circle
+       cx="375"
+       cy="60"
+       r="0.9"
+       opacity="0.3"
+       id="circle35" />
+    <circle
+       cx="480"
+       cy="50"
+       r="1"
+       opacity="0.32"
+       id="circle36" />
+    <circle
+       cx="600"
+       cy="72"
+       r="0.8"
+       opacity="0.28"
+       id="circle37" />
+    <circle
+       cx="720"
+       cy="55"
+       r="0.9"
+       opacity="0.3"
+       id="circle38" />
+    <circle
+       cx="870"
+       cy="66"
+       r="0.8"
+       opacity="0.28"
+       id="circle39" />
+    <circle
+       cx="950"
+       cy="80"
+       r="0.7"
+       opacity="0.25"
+       id="circle40" />
+    <circle
+       cx="25"
+       cy="130"
+       r="0.8"
+       opacity="0.22"
+       id="circle41" />
+    <circle
+       cx="940"
+       cy="120"
+       r="0.8"
+       opacity="0.22"
+       id="circle42" />
+  </g>
+  <!-- ═══════════════════════════════════════════════
+       MANHATTAN SKYLINE — full 960px width
+       Step-function only. Stark height variation.
+       ESB cluster centred ~x=320, Chrysler ~x=520.
+       Midtown variety left, lower density right.
+  ════════════════════════════════════════════════ -->
+  <path
+     d="     M0,540     L0,440     L18,440  L18,420  L32,420     L32,438  L44,438     L44,400  L58,400     L58,432  L68,432     L68,388  L82,388     L82,420  L92,420     L92,365  L108,365     L108,395 L118,395     L118,348 L132,348     L132,380 L140,380     L140,330 L152,330     L152,360 L158,360     L158,318 L168,318     L168,338 L174,338     L174,305 L182,305     L182,320 L186,320     L186,295 L192,295      L192,285 L196,285     L196,275 L198,275     L198,265 L200,265     L200,256 L201,256     L201,248 L202,248     L202,240 L203,240     L203,234 L204,234     L204,228 L205,228     L205,222 L206,222     L206,218 L207,218     L207,214 L208,214     L208,211 L209,211     L209,208 L210,208     L210,206 L211,206     L211,204 L212,204     L212,202 L213,202     L213,201 L214,201     L214,200 L215,200     L215,200 L216,200     L216,201 L217,201     L217,202 L218,202     L218,203 L219,204     L219,206 L220,208     L220,210 L221,213     L221,217 L222,221     L222,225 L223,230     L223,235 L224,240     L224,248 L226,256     L226,265 L228,274     L228,284 L230,293      L230,295 L238,295     L238,310 L248,310     L248,285 L258,285     L258,305 L268,305     L268,278 L280,278     L280,298 L288,298     L288,262 L300,262      L300,252 L304,252     L304,242 L306,242     L306,234 L308,234     L308,226 L310,226     L310,220 L311,220     L311,215 L312,215     L312,211 L313,211     L313,208 L314,208     L314,206 L315,206     L315,204 L316,204     L316,203 L317,203     L317,202 L318,202     L318,202 L319,202     L319,203 L320,204     L320,206 L321,208     L321,210 L322,214     L322,218 L323,223     L323,228 L324,234     L324,240 L326,248     L326,256 L328,266     L328,278      L328,282 L336,282     L336,298 L346,298     L346,278 L358,278     L358,295 L368,295     L368,272 L380,272     L380,290 L390,290     L390,310 L402,310     L402,288 L414,288     L414,312 L428,312     L428,295 L442,295     L442,318 L455,318     L455,298 L466,298     L466,326 L480,326     L480,308 L492,308     L492,330 L506,330     L506,312 L520,312     L520,338 L534,338     L534,318 L548,318     L548,345 L562,345     L562,325 L578,325     L578,350 L592,350     L592,368 L608,368     L608,348 L622,348     L622,372 L636,372     L636,390 L652,390     L652,370 L664,370     L664,395 L678,395     L678,412 L696,412     L696,396 L710,396     L710,418 L726,418     L726,404 L740,404     L740,428 L756,428     L756,414 L770,414     L770,438 L784,438     L784,424 L800,424     L800,442 L960,442     L960,540 Z"
+     fill="url(#bfill)"
+     id="path42" />
+  <!-- Rooftop glow line -->
+  <path
+     d="     M108,365 L118,365 L118,348 L132,348 L132,380 L140,380     L140,330 L152,330 L152,360 L158,360 L158,318 L168,318     L168,338 L174,338 L174,305 L182,305 L182,320 L186,320     L186,295 L192,295 L192,285 L196,285 L196,275 L198,275     L198,265 L200,265 L200,256 L201,248 L202,240 L203,234     L204,228 L205,222 L206,218 L207,214 L208,211 L209,208     L210,206 L211,204 L212,202 L213,201 L214,200 L215,200     L216,200 L217,201 L218,202 L219,204 L220,208 L221,213     L222,221 L223,230 L224,240 L226,256 L228,274 L230,293     L230,295 L238,295 L238,310 L248,310 L248,285 L258,285     L258,305 L268,305 L268,278 L280,278 L280,298 L288,298     L288,262 L300,262 L300,252 L304,252 L306,242 L308,234     L310,226 L311,220 L312,215 L313,211 L314,208 L315,206     L316,204 L317,203 L318,202 L319,202 L320,204 L321,208     L322,214 L323,223 L324,234 L326,248 L328,266 L328,278     L328,282 L336,282 L336,298 L346,298 L346,278 L358,278     L358,295 L368,295 L368,272 L380,272 L380,290 L390,290     L390,310 L402,310 L402,288 L414,288 L414,312 L428,312"
+     fill="none"
+     stroke="#55CDFC"
+     stroke-width="0.8"
+     opacity="0.35"
+     filter="url(#tglow)"
+     id="path43" />
+  <!-- Window lights -->
+  <g
+     opacity="0.6"
+     filter="url(#tglow)"
+     id="g66">
+    <!-- ESB zone -->
+    <rect
+       x="194"
+       y="268"
+       width="3"
+       height="2"
+       fill="#55CDFC"
+       id="rect43" />
+    <rect
+       x="202"
+       y="254"
+       width="2"
+       height="2"
+       fill="#F7A8B8"
+       id="rect44" />
+    <rect
+       x="210"
+       y="240"
+       width="2"
+       height="2"
+       fill="#FFFFFF"
+       id="rect45" />
+    <rect
+       x="216"
+       y="230"
+       width="2"
+       height="2"
+       fill="#55CDFC"
+       id="rect46" />
+    <rect
+       x="222"
+       y="244"
+       width="2"
+       height="2"
+       fill="#F7A8B8"
+       id="rect47" />
+    <rect
+       x="186"
+       y="278"
+       width="2"
+       height="2"
+       fill="#55CDFC"
+       id="rect48" />
+    <rect
+       x="229"
+       y="268"
+       width="2"
+       height="2"
+       fill="#FFFFFF"
+       id="rect49" />
+    <rect
+       x="170"
+       y="308"
+       width="2"
+       height="2"
+       fill="#F7A8B8"
+       id="rect50" />
+    <rect
+       x="246"
+       y="292"
+       width="2"
+       height="2"
+       fill="#55CDFC"
+       id="rect51" />
+    <!-- Chrysler zone -->
+    <rect
+       x="308"
+       y="242"
+       width="2"
+       height="2"
+       fill="#F7A8B8"
+       id="rect52" />
+    <rect
+       x="315"
+       y="234"
+       width="2"
+       height="2"
+       fill="#55CDFC"
+       id="rect53" />
+    <rect
+       x="322"
+       y="240"
+       width="2"
+       height="2"
+       fill="#FFFFFF"
+       id="rect54" />
+    <rect
+       x="305"
+       y="256"
+       width="2"
+       height="2"
+       fill="#55CDFC"
+       id="rect55" />
+    <rect
+       x="328"
+       y="254"
+       width="2"
+       height="2"
+       fill="#F7A8B8"
+       id="rect56" />
+    <!-- Mid right -->
+    <rect
+       x="352"
+       y="282"
+       width="2"
+       height="2"
+       fill="#55CDFC"
+       id="rect57" />
+    <rect
+       x="376"
+       y="278"
+       width="2"
+       height="2"
+       fill="#F7A8B8"
+       id="rect58" />
+    <rect
+       x="408"
+       y="292"
+       width="2"
+       height="2"
+       fill="#FFFFFF"
+       id="rect59" />
+    <rect
+       x="438"
+       y="298"
+       width="2"
+       height="2"
+       fill="#55CDFC"
+       id="rect60" />
+    <rect
+       x="462"
+       y="302"
+       width="2"
+       height="2"
+       fill="#F7A8B8"
+       id="rect61" />
+    <!-- Far right scattered -->
+    <rect
+       x="530"
+       y="316"
+       width="2"
+       height="2"
+       fill="#55CDFC"
+       id="rect62" />
+    <rect
+       x="560"
+       y="328"
+       width="2"
+       height="2"
+       fill="#F7A8B8"
+       id="rect63" />
+    <rect
+       x="598"
+       y="352"
+       width="2"
+       height="2"
+       fill="#55CDFC"
+       id="rect64" />
+    <rect
+       x="140"
+       y="338"
+       width="2"
+       height="2"
+       fill="#F7A8B8"
+       id="rect65" />
+    <rect
+       x="112"
+       y="370"
+       width="2"
+       height="2"
+       fill="#55CDFC"
+       id="rect66" />
+  </g>
+  <!-- ═══════════════════════════════════════════════
+       COMMUTATIVE TRIANGLE
+       Centred at ~(480, 230)
+       A(260, 150)  B(700, 150)  C(480, 330)
+  ════════════════════════════════════════════════ -->
+  <!-- f: A→B blue arc -->
+  <path
+     d="M 288 138 Q 480 90 672 138"
+     fill="none"
+     stroke="#55CDFC"
+     stroke-width="6"
+     marker-end="url(#mb)"
+     filter="url(#glow)"
+     id="path66" />
+  <!-- g: A→C pink -->
+  <path
+     d="M 272 168 Q 280 268 458 328"
+     fill="none"
+     stroke="#F7A8B8"
+     stroke-width="6"
+     marker-end="url(#mp)"
+     filter="url(#glow)"
+     id="path67" />
+  <!-- h: B→C white -->
+  <path
+     d="M 688 168 Q 680 268 504 328"
+     fill="none"
+     stroke="#FFFFFFDD"
+     stroke-width="5.5"
+     marker-end="url(#mw)"
+     filter="url(#glow)"
+     id="path68"
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-opacity:1" />
+  <!-- Nodes -->
+  <circle
+     cx="260"
+     cy="150"
+     r="22"
+     fill="#55CDFC"
+     filter="url(#glow)"
+     id="circle68" />
+  <circle
+     cx="260"
+     cy="150"
+     r="10"
+     fill="#06031a"
+     id="circle69" />
+  <circle
+     cx="700"
+     cy="150"
+     r="22"
+     fill="#55CDFC"
+     filter="url(#glow)"
+     id="circle70" />
+  <circle
+     cx="700"
+     cy="150"
+     r="10"
+     fill="#06031a"
+     id="circle71" />
+  <circle
+     cx="480"
+     cy="340"
+     r="22"
+     fill="#F7A8B8"
+     filter="url(#glow)"
+     id="circle72" />
+  <circle
+     cx="480"
+     cy="340"
+     r="10"
+     fill="#0a0525"
+     id="circle73" />
+  <!-- Object labels -->
+  <text
+     x="220"
+     y="144"
+     fill="#55CDFC"
+     font-family="Georgia,serif"
+     font-size="38"
+     font-style="italic"
+     font-weight="bold"
+     filter="url(#sglow)"
+     id="text73">A</text>
+  <text
+     x="716"
+     y="144"
+     fill="#55CDFC"
+     font-family="Georgia,serif"
+     font-size="38"
+     font-style="italic"
+     font-weight="bold"
+     filter="url(#sglow)"
+     id="text74">B</text>
+  <text
+     x="462"
+     y="388"
+     fill="#F7A8B8"
+     font-family="Georgia,serif"
+     font-size="38"
+     font-style="italic"
+     font-weight="bold"
+     filter="url(#sglow)"
+     id="text75">C</text>
+  <!-- Morphism labels -->
+  <text
+     x="480"
+     y="82"
+     fill="#55CDFC"
+     font-family="Georgia,serif"
+     font-size="26"
+     font-style="italic"
+     text-anchor="middle"
+     filter="url(#sglow)"
+     id="text76">f</text>
+  <text
+     x="295"
+     y="272"
+     fill="#F7A8B8"
+     font-family="Georgia,serif"
+     font-size="26"
+     font-style="italic"
+     filter="url(#sglow)"
+     id="text77">g</text>
+  <text
+     x="658"
+     y="272"
+     fill="#FFFFFF"
+     font-family="Georgia,serif"
+     font-size="26"
+     font-style="italic"
+     opacity="0.9"
+     filter="url(#sglow)"
+     id="text78">h</text>
+  <!-- Ghost commutativity label -->
+  <text
+     x="480"
+     y="255"
+     fill="#F7A8B8"
+     font-family="Georgia,serif"
+     font-size="14"
+     font-style="italic"
+     text-anchor="middle"
+     opacity="0.22"
+     id="text79">g = h ∘ f</text>
+  <!-- ═══ TITLE TEXT ═══ -->
+  <!-- Main title, right side -->
+  <text
+     x="480"
+     y="468"
+     fill="#FFFFFF"
+     font-family="'Courier New',Courier,monospace"
+     font-size="22"
+     font-weight="bold"
+     text-anchor="middle"
+     letter-spacing="6"
+     filter="url(#textglow)"
+     id="text80">NYC CATEGORY THEORY</text>
+  <text
+     x="480"
+     y="494"
+     fill="#F7A8B8"
+     font-family="'Courier New',Courier,monospace"
+     font-size="12"
+     text-anchor="middle"
+     letter-spacing="5"
+     opacity="0.8"
+     id="text81">MANHATTAN READING GROUP</text>
+  <!-- Bottom trans stripe -->
+  <rect
+     x="0"
+     y="532"
+     width="960"
+     height="3"
+     fill="#55CDFC"
+     opacity="0.6"
+     id="rect81" />
+  <rect
+     x="0"
+     y="535"
+     width="960"
+     height="3"
+     fill="#F7A8B8"
+     opacity="0.5"
+     id="rect82" />
+  <rect
+     x="0"
+     y="537"
+     width="960"
+     height="3"
+     fill="#FFFFFF"
+     opacity="0.4"
+     id="rect83" />
+</svg>

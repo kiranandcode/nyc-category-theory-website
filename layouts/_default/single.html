@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="width-container">
+  <main>
+    <a class="back-link" href="{{ "meetings/" | relURL }}">&larr; Back to meeting log</a>
+
+    <span class="caption-m">{{ .Date.Format "2 January 2006" }}</span>
+    <h1 class="heading-l">{{ .Title }}</h1>
+
+    {{ with .Params.summary }}
+    <p class="body-l" style="color: #505a5f;">{{ . }}</p>
+    {{ end }}
+
+    <hr class="section-break section-break--l section-break--visible" />
+
+    <div class="content">
+      {{ .Content }}
+    </div>
+  </main>
+</div>
+{{ end }}

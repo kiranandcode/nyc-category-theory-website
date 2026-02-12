@@ -1,0 +1,92 @@
+{{ define "main" }}
+<!-- Hero banner with SVG -->
+<div class="hero-banner">
+  <img class="hero-banner-img" src="{{ "images/nyc-cat-theory-banner.svg" | relURL }}" alt="" />
+  <div class="hero-overlay">
+    <h1 class="hero-title">NYC Beginners<br/>Category Theory<br/>Reading Club</h1>
+  </div>
+</div>
+
+<!-- Join links bar -->
+<div class="join-bar">
+  <div class="width-container join-bar-inner">
+    <a class="button button--pink" href="{{ .Site.Params.meetupURL }}" target="_blank" rel="noopener">RSVP on Meetup</a>
+    <a class="button button--blue" href="{{ .Site.Params.discordURL }}" target="_blank" rel="noopener">Join our Discord</a>
+  </div>
+</div>
+
+<div class="width-container">
+  <main>
+
+    <!-- About section -->
+    <div class="grid-row">
+      <div class="grid-column-two-thirds">
+        <h2 class="heading-l">About the Reading Club</h2>
+        <p class="body">
+          Are you interested in diving into the world of Category Theory? Join our NYC Beginners-friendly Reading Club!
+        </p>
+
+        <div class="inset-text">
+          <p class="body" style="margin-bottom:0;">
+            <strong>Goal:</strong> Learn category theory!<br/>
+            <strong>Who:</strong> Anyone interested in learning category theory, beginner friendly!<br/>
+            <strong>What:</strong> Discussion of sections of the book, exercises and insights. Progress is non-linear so feel free to drop in even if you missed previous meetings.
+          </p>
+        </div>
+
+        <p class="body">
+          We are hoping to keep the mathematical requirements low, though you might want to grab a copy of the book in advance and check it fits your taste.
+        </p>
+      </div>
+      <div class="grid-column-one-third sidebar-col">
+        <img src="{{ "images/nyc-cat-theory-logo.svg" | relURL }}" alt="NYC Category Theory Logo" class="sidebar-logo" />
+      </div>
+    </div>
+
+    <hr class="section-break section-break--l section-break--visible" />
+
+    <!-- The Book -->
+    <h2 class="heading-l">The Book</h2>
+    <p class="body">
+      We are reading <strong>{{ .Site.Params.bookTitle }}</strong> by <strong>{{ .Site.Params.bookAuthor }}</strong> (Oxford Logic Guides). It provides an accessible introduction to the subject, suitable for those with a basic background in mathematics or computer science.
+    </p>
+
+    <hr class="section-break section-break--l section-break--visible" />
+
+    <!-- How to Join -->
+    <h2 class="heading-l">How to Join</h2>
+    <ul class="list--bullet list--spaced body">
+      <li><a class="link" href="{{ .Site.Params.meetupURL }}" target="_blank" rel="noopener">RSVP on Meetup</a> to get notified of upcoming meetings</li>
+      <li><a class="link" href="{{ .Site.Params.discordURL }}" target="_blank" rel="noopener">Join our Discord</a> for discussion between meetings</li>
+    </ul>
+    <p class="body">
+      Progress is non-linear, so feel free to drop in even if you missed previous meetings!
+    </p>
+
+    <hr class="section-break section-break--l section-break--visible" />
+
+    <!-- Meeting Log -->
+    <h2 class="heading-l">Meeting Log</h2>
+    {{ $meetings := where .Site.RegularPages "Section" "meetings" }}
+    {{ if $meetings }}
+    <ul class="meeting-list">
+      {{ range $meetings.ByDate.Reverse }}
+      <li class="meeting-list-item">
+        <a href="{{ .RelPermalink }}">
+          <div class="meeting-title">{{ .Title }}</div>
+          <div class="meeting-date">{{ .Date.Format "2 January 2006" }}</div>
+          {{ with .Params.summary }}<div class="meeting-summary">{{ . }}</div>{{ end }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ else }}
+    <p class="body" style="color: #505a5f;">No meetings logged yet. Check back soon!</p>
+    {{ end }}
+    <p class="body">
+      <a class="link" href="{{ "meetings/" | relURL }}">View all meetings &rarr;</a>
+    </p>
+
+  </main>
+</div>
+{{ end }}

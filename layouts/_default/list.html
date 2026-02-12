@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="width-container">
+  <main>
+    <a class="back-link" href="{{ "/" | relURL }}">&larr; Back to home</a>
+    <h1 class="heading-l">{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ $pages := .Pages.ByDate.Reverse }}
+    {{ if $pages }}
+    <ul class="meeting-list">
+      {{ range $pages }}
+      <li class="meeting-list-item">
+        <a href="{{ .RelPermalink }}">
+          <div class="meeting-title">{{ .Title }}</div>
+          <div class="meeting-date">{{ .Date.Format "2 January 2006" }}</div>
+          {{ with .Params.summary }}<div class="meeting-summary">{{ . }}</div>{{ end }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ else }}
+    <p class="body" style="color: #505a5f;">No meetings logged yet. Check back soon!</p>
+    {{ end }}
+  </main>
+</div>
+{{ end }}

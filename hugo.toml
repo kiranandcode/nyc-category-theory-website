@@ -1,0 +1,16 @@
+baseURL = 'https://kiranandcode.github.io/nyc-category-theory-website/'
+languageCode = 'en-us'
+title = 'NYC Category Theory Reading Club'
+
+[params]
+  description = "NYC Beginners-friendly Category Theory Reading Club"
+  discordURL = "https://discord.gg/NWGdjJ6nJJ"
+  meetupURL = "https://www.meetup.com/nyc-beginners-friendly-category-theory-reading-club-awodey/"
+  personalSiteURL = "https://kirancodes.me"
+  bookTitle = "Category Theory"
+  bookAuthor = "Steve Awodey"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,19 @@
+<nav class="navigation">
+  <ul class="navigation-list width-container">
+    <li class="navigation-list-item{{ if .IsHome }} navigation-list-item--current{{ end }}">
+      <a href="{{ "/" | relURL }}">Home</a>
+    </li>
+    <li class="navigation-list-item{{ if eq .Section "meetings" }} navigation-list-item--current{{ end }}">
+      <a href="{{ "meetings/" | relURL }}">Meeting Log</a>
+    </li>
+    <li class="navigation-list-item">
+      <a href="{{ .Site.Params.discordURL }}" target="_blank" rel="noopener">Discord</a>
+    </li>
+    <li class="navigation-list-item">
+      <a href="{{ .Site.Params.meetupURL }}" target="_blank" rel="noopener">Meetup</a>
+    </li>
+    <li class="navigation-list-item">
+      <a href="{{ .Site.Params.personalSiteURL }}" target="_blank" rel="noopener">kirancodes.me</a>
+    </li>
+  </ul>
+</nav>
