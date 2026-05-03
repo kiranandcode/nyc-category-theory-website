@@ -7,8 +7,12 @@ title = 'NYC Category Theory Reading Club'
   discordURL = "https://discord.gg/NWGdjJ6nJJ"
   meetupURL = "https://www.meetup.com/nyc-beginners-friendly-category-theory-reading-club-awodey/"
   personalSiteURL = "https://kirancodes.me"
-  bookTitle = "Category Theory"
-  bookAuthor = "Steve Awodey"
+  bookTitle = "Seven Sketches in Compositionality"
+  bookSubtitle = "An Invitation to Applied Category Theory"
+  bookAuthor = "Brendan Fong and David Spivak"
+  bookURL = "https://arxiv.org/abs/1803.05316"
+  previousBookTitle = "Category Theory"
+  previousBookAuthor = "Steve Awodey"
 
 [markup]
   [markup.goldmark]

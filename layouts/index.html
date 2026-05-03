@@ -48,7 +48,10 @@
     <!-- The Book -->
     <h2 class="heading-l">The Book</h2>
     <p class="body">
-      We are reading <strong>{{ .Site.Params.bookTitle }}</strong> by <strong>{{ .Site.Params.bookAuthor }}</strong> (Oxford Logic Guides). It provides an accessible introduction to the subject, suitable for those with a basic background in mathematics or computer science.
+      We are currently reading <strong><a class="link" href="{{ .Site.Params.bookURL }}" target="_blank" rel="noopener">{{ .Site.Params.bookTitle }}: {{ .Site.Params.bookSubtitle }}</a></strong> by <strong>{{ .Site.Params.bookAuthor }}</strong>. It is freely available online and beginner friendly, with lots of worked examples.
+    </p>
+    <p class="body" style="color:#505a5f;">
+      We previously started with <em>{{ .Site.Params.previousBookTitle }}</em> by {{ .Site.Params.previousBookAuthor }} but switched in March 2026. See the <a class="link" href="#meeting-log">meeting log</a>.
     </p>
 
     <hr class="section-break section-break--l section-break--visible" />
@@ -65,8 +68,36 @@
 
     <hr class="section-break section-break--l section-break--visible" />
 
+    <!-- Running Club -->
+    <h2 class="heading-l" id="running-club">NYC Category Theory Running Club</h2>
+    <div class="grid-row">
+      <div class="grid-column-two-thirds">
+        <p class="body">
+          A gentle Sunday morning run for the reading club and friends. We meet at <strong>Grand Army Plaza</strong> and do the large loop around <strong>Prospect Park</strong> together.
+        </p>
+
+        <div class="inset-text">
+          <p class="body" style="margin-bottom:0;">
+            <strong>When:</strong> Every Sunday, 9:30am<br/>
+            <strong>Where:</strong> Grand Army Plaza, Brooklyn (the start of the Prospect Park loop)<br/>
+            <strong>Distance:</strong> ~3.35 miles (the full park loop)<br/>
+            <strong>Pace:</strong> Gentle. Everyone welcome.
+          </p>
+        </div>
+
+        <p class="body">
+          We coordinate week-to-week on the <a class="link" href="{{ .Site.Params.discordURL }}" target="_blank" rel="noopener">Discord</a>.
+        </p>
+      </div>
+      <div class="grid-column-one-third sidebar-col">
+        <img src="{{ "images/prospect-park-loop.svg" | relURL }}" alt="Map of Prospect Park, Brooklyn, with the Sunday running loop highlighted starting at Grand Army Plaza" class="run-map" />
+      </div>
+    </div>
+
+    <hr class="section-break section-break--l section-break--visible" />
+
     <!-- Meeting Log -->
-    <h2 class="heading-l">Meeting Log</h2>
+    <h2 class="heading-l" id="meeting-log">Meeting Log</h2>
     {{ $meetings := where .Site.RegularPages "Section" "meetings" }}
     {{ if $meetings }}
     <ul class="meeting-list">
